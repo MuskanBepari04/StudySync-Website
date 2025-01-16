@@ -1,0 +1,105 @@
+/* ...........media queries for navbar........ */
+
+@media screen and  (min-width:768px) {
+    .navbar{
+        display: flex;
+    }
+    .Contact-btn{
+        display: block;
+    }
+}
+@media screen and  (max-width:768px) {
+    .menu-btn{
+        display: block;
+    }
+    .logo{
+        padding: 0 0.9rem;
+    }
+}
+
+/* ..........media queries for hero section........... */
+@media screen and  (min-width:768px) {
+    .main-section{
+        flex-direction: row;
+        margin: 0 auto;
+    }
+    .left-box{
+        max-width: 50%;
+        text-align: left;
+    }
+    .sec-title{
+        padding-left: 0;
+        font-size: 3.8rem;
+    }
+    .btn-container{
+        justify-content: start;
+        padding-left: 0;
+    }
+    .sec-intro{
+        font-size: 1rem;
+    }
+    .image-container{
+        height: 67vh;
+    }
+    .sec-info{
+        font-size: 1.1rem;
+        width: 80%;
+    }
+
+}
+/* ..........media queries for company section........... */
+@media screen and (min-width:700px) {
+        .company-grid{
+            grid-template-columns: repeat(4,1fr);
+        }
+        .company-title{
+            font-size: 2.3rem;
+            font-weight: bold;
+        }
+}
+/* ..........media queries for cards section........... */
+@media screen and (max-width:768px) {
+    .card-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+/* ..........media queries for newsletter section........... */
+@media screen and (min-width:640px) {
+    .form-box{
+        width: 50%;
+    }
+   .img-box{
+    width: 50%;
+    display: block;
+   }
+   .newsletter-container{
+    height: 45vh;
+    padding: 2rem;
+   }
+   .newsletter-content{
+    height: 100%;
+   }
+
+}
+@media screen and (max-width:640px) {
+
+}
+/* ..........media queries for footer section........... */
+@media screen and (max-width:1080px) {
+    .main-footer{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .left-footer{
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:620px) {
+.right-footer{
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+    
+}
+}
